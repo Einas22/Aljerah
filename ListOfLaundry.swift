@@ -15,17 +15,8 @@ struct ListOfLaundry: View {
     @State private var search: String = "Laundry"
     
     var body: some View {
-       VStack {
-            
-
-           Button {
-               localSearchService.search(
-                               query: search)
-           } label: {
-               Text("View List")
-           }
-
-            
+       
+        VStack {
             if localSearchService.landmarks.isEmpty {
                 Text("No placese around you !")
                     .padding()
@@ -34,11 +25,11 @@ struct ListOfLaundry: View {
             } else {
                 PharmacyListView()
             }
-            
-
-            
           //  Spacer()
-        }
+       }.onAppear {
+           localSearchService.search(
+                           query: search)
+       }
     }
 }
 

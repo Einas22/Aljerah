@@ -86,6 +86,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(neighborhood:Binding<String>.constant("hi"))
+        ContentView(neighborhood:Binding<String>.constant("Alyasmin"))
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ExampleApp: App {
+struct Aljirah: App {
     var body: some Scene {
         WindowGroup {
             SplashScreenView().environmentObject(LocalSearchService())

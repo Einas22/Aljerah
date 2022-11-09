@@ -69,8 +69,11 @@ struct SharedTransportation: View {
                             content: {
                                 VStack(alignment: .leading){
                                     
-                                    Text("Service_Details".localized).bold()
+                                    Text("Service_Details".localized)
+                                        .multilineTextAlignment(.leading)
+                                        .bold()
                                         .foregroundColor(Color("Dgreen"))
+                                        
                                     Text(oneSh_Transportation.ServiceDetails)
                                     //
                                     Text("")

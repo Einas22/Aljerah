@@ -35,7 +35,7 @@
 		69EE25C6290E7598003E5EE4 /* SharedTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */; };
 		69EE25C8290E75E6003E5EE4 /* KisdClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C7290E75E6003E5EE4 /* KisdClub.swift */; };
 		69EE25CA290E7623003E5EE4 /* CarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C9290E7623003E5EE4 /* CarWash.swift */; };
-		69F8BFE3290D64B500624C11 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFE2290D64B500624C11 /* ExampleApp.swift */; };
+		69F8BFE3290D64B500624C11 /* Aljirah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFE2290D64B500624C11 /* Aljirah.swift */; };
 		69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFE4290D64B500624C11 /* ContentView.swift */; };
 		69F8BFE7290D64B600624C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8BFE6290D64B600624C11 /* Assets.xcassets */; };
 		69F8BFEA290D64B600624C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8BFE9290D64B600624C11 /* Preview Assets.xcassets */; };
@@ -75,8 +75,8 @@
 		69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTransportation.swift; sourceTree = "<group>"; };
 		69EE25C7290E75E6003E5EE4 /* KisdClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisdClub.swift; sourceTree = "<group>"; };
 		69EE25C9290E7623003E5EE4 /* CarWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash.swift; sourceTree = "<group>"; };
-		69F8BFDF290D64B500624C11 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69F8BFE2290D64B500624C11 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
+		69F8BFDF290D64B500624C11 /* Aljirah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aljirah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F8BFE2290D64B500624C11 /* Aljirah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aljirah.swift; sourceTree = "<group>"; };
 		69F8BFE4290D64B500624C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69F8BFE6290D64B600624C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F8BFE9290D64B600624C11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 				69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */,
 				50F9CC592917236000A298FA /* old list */,
 				69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */,
-				69F8BFE1290D64B500624C11 /* Example */,
+				69F8BFE1290D64B500624C11 /* Aljirah */,
 				69F8BFE0290D64B500624C11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,20 +188,20 @@
 		69F8BFE0290D64B500624C11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69F8BFDF290D64B500624C11 /* Example.app */,
+				69F8BFDF290D64B500624C11 /* Aljirah.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69F8BFE1290D64B500624C11 /* Example */ = {
+		69F8BFE1290D64B500624C11 /* Aljirah */ = {
 			isa = PBXGroup;
 			children = (
-				69F8BFE2290D64B500624C11 /* ExampleApp.swift */,
+				69F8BFE2290D64B500624C11 /* Aljirah.swift */,
 				69F8BFE4290D64B500624C11 /* ContentView.swift */,
 				69F8BFE6290D64B600624C11 /* Assets.xcassets */,
 				69F8BFE8290D64B600624C11 /* Preview Content */,
 			);
-			path = Example;
+			path = Aljirah;
 			sourceTree = "<group>";
 		};
 		69F8BFE8290D64B600624C11 /* Preview Content */ = {
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69F8BFDE290D64B500624C11 /* Example */ = {
+		69F8BFDE290D64B500624C11 /* Aljirah */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69F8BFED290D64B600624C11 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 69F8BFED290D64B600624C11 /* Build configuration list for PBXNativeTarget "Aljirah" */;
 			buildPhases = (
 				69F8BFDB290D64B500624C11 /* Sources */,
 				69F8BFDC290D64B500624C11 /* Frameworks */,
@@ -227,9 +227,9 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = Aljirah;
 			productName = Example;
-			productReference = 69F8BFDF290D64B500624C11 /* Example.app */;
+			productReference = 69F8BFDF290D64B500624C11 /* Aljirah.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69F8BFDA290D64B500624C11 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 69F8BFDA290D64B500624C11 /* Build configuration list for PBXProject "Aljirah" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,7 +261,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69F8BFDE290D64B500624C11 /* Example */,
+				69F8BFDE290D64B500624C11 /* Aljirah */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +302,7 @@
 				69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */,
 				69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */,
 				50F9CC412916ED8100A298FA /* LocalSearchService.swift in Sources */,
-				69F8BFE3290D64B500624C11 /* ExampleApp.swift in Sources */,
+				69F8BFE3290D64B500624C11 /* Aljirah.swift in Sources */,
 				696C0E262913C82E0076051C /* Registration.swift in Sources */,
 				696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */,
 				50F9CC3E2916ED2F00A298FA /* Landmark.swift in Sources */,
@@ -456,7 +456,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Aljirah/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ghada-alshahrani-hotmail.com.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Aljirah/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -499,7 +499,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ghada-alshahrani-hotmail.com.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -510,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69F8BFDA290D64B500624C11 /* Build configuration list for PBXProject "Example" */ = {
+		69F8BFDA290D64B500624C11 /* Build configuration list for PBXProject "Aljirah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69F8BFEB290D64B600624C11 /* Debug */,
@@ -519,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69F8BFED290D64B600624C11 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		69F8BFED290D64B600624C11 /* Build configuration list for PBXNativeTarget "Aljirah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69F8BFEE290D64B600624C11 /* Debug */,

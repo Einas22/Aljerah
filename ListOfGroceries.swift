@@ -15,29 +15,19 @@ struct ListOfGroceries: View {
   
     
     var body: some View {
-       VStack {
-            
-
-           Button {
-               localSearchService.search(
-                               query: search)
-           } label: {
-               Text("View List")
-           }
-
-            
+        VStack {
             if localSearchService.landmarks.isEmpty {
                 Text("No placese around you !")
                     .padding()
-
+                
                 
             } else {
-                GroceriesListView()
+                PharmacyListView()
             }
-            
-
-            
-          //  Spacer()
+            //  Spacer()
+        }.onAppear {
+            localSearchService.search(
+                query: search)
         }
     }
 }

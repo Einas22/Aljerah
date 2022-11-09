@@ -12,21 +12,12 @@ import MapKit
 struct ListOfPharmacy: View {
     
     @EnvironmentObject var localSearchService: LocalSearchService
-    @State private var search: String = "Pharmacy"
+    @State var search: String// = "Pharmacy"
 
     
     var body: some View {
-       VStack {
-            
-
-           Button {
-               localSearchService.search(
-                               query: search)
-           } label: {
-               Text("View List")
-           }
-
-            
+      
+        VStack {
             if localSearchService.landmarks.isEmpty {
                 Text("No placese around you !")
                     .padding()
@@ -35,17 +26,17 @@ struct ListOfPharmacy: View {
             } else {
                 PharmacyListView()
             }
-            
-
-            
           //  Spacer()
-        }
+       }.onAppear {
+           localSearchService.search(
+                           query: search)
+       }
     }
 }
 
 struct ListOfPharmacy_Previews: PreviewProvider {
     static var previews: some View {
-        ListOfPharmacy().environmentObject(LocalSearchService())
+        ListOfPharmacy(search: "Pharmacy").environmentObject(LocalSearchService())
     }
 }
 

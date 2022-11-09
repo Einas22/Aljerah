@@ -123,7 +123,7 @@ struct Edit_MyAccount: View {
                      showingAlert = true
                  }
                  .alert("The_account_has_been_updated".localized, isPresented: $showingAlert) {
-                     Button("OK".localized, role: .destructive) {
+                     Button("Ok".localized, role: .destructive) {
                          isPresented.toggle()
                      }
                  }
@@ -138,7 +138,7 @@ struct Edit_MyAccount: View {
                  }
                         }
         .fullScreenCover(isPresented: $isPresented, content: {
-            ContentView(neighborhood:Binding<String>.constant("hi"))
+            ContentView(neighborhood:Binding<String>.constant("Alyasmin"))
         })
 //            .navigationTitle("Edit My Account")
             .padding(.all)

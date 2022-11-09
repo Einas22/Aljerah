@@ -67,7 +67,7 @@ struct AddTransportation_Service: View {
                         showingAlert = true
                     }
                     .alert("The_service_has_been_added".localized, isPresented: $showingAlert) {
-                        Button("Ok", role: .destructive) { isPresented.toggle()
+                        Button("Ok", role: .cancel) { isPresented.toggle()
                             
                         }
                     }
@@ -102,7 +102,7 @@ struct AddTransportation_Service: View {
                     .foregroundColor(Color("Dgreen"))
                     .font(.caption2)
                     .fullScreenCover(isPresented: $isPresented, content: {
-                        SharedTransportation()})
+                        ContentView(neighborhood:Binding<String>.constant("Alyasmin"))})
                 }
             }
                 
@@ -115,6 +115,6 @@ struct AddTransportation_Service: View {
 
 struct AddTransportation_Service_Previews: PreviewProvider {
     static var previews: some View {
-        AddTransportation_Service(neighborhood:Binding<String>.constant("hi"))
+        AddTransportation_Service(neighborhood:Binding<String>.constant("Alyasmin"))
     }
 }

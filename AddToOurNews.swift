@@ -9,12 +9,25 @@
 import SwiftUI
 
 
-
+struct User {
+    var id = UUID()
+    var name : String
+    var gender: String
+    var posts : [String]
+    
+    
+    
+    
+    
+}
 struct AddToOurNews: View {
     
     @State var message :String = ""
     @State var Name :String = "hoton"
     @State var Gender :String = "FemaleProfile"
+    
+    //user defult to stor the value in all pages
+    //core data make local data base in your machine
     
   //  @State private var showsheet = false
     @Binding var isPresentedSheet : Bool
@@ -34,7 +47,7 @@ struct AddToOurNews: View {
         
                    
                     isPresentedSheet = false
-                    OurNews(AddedMessage: $message, AddedName:$Name, AddedGender:$Gender)
+                   // OurNews(AddedMessage: $message, AddedName:$Name, AddedGender:$Gender)
                     
                     
                 }

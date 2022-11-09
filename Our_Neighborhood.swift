@@ -16,7 +16,7 @@ struct Our_Neighborhood: View {
          
             UINavigationBar.appearance().standardAppearance = navBarAppearance
             UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-            UINavigationBar.appearance().compactAppearance = navBarAppearance
+//            UINavigationBar.appearance().compactAppearance = navBarAppearance
 
  } //init to change the appearance of the nav
                                                   
@@ -55,9 +55,10 @@ Text("Neighborhood_Services".localized)
                                 .cornerRadius(26)
                             
                         }
+//                                                                      NavigationLink(destination:ListOfPharmacy(search: <#String#>))
 
-                        
-                        NavigationLink(destination:ListOfPharmacy()) {
+
+                                                                      NavigationLink(destination:ListOfPharmacy(search : "pharmacy")) {
                           VStack{
                                 Image(systemName: "cross")
                                 .font(.system(size:20))
@@ -70,10 +71,10 @@ Text("Neighborhood_Services".localized)
                                 .background(Color("LGreen"))
                                 .cornerRadius(26)
                         }
-                        
-                        
-                        
-                        NavigationLink(destination:ListOfBarber()) {
+
+
+
+                                                                      NavigationLink(destination:ListOfPharmacy(search : "barber")) {
                                 VStack{
                                         Image(systemName: "mustache")
                                         .font(.system(size:20))
@@ -87,9 +88,9 @@ Text("Neighborhood_Services".localized)
                                 .cornerRadius(26)
                         }
 
-                        
-                        
-                        NavigationLink(destination:ListOfLaundry()) {
+
+
+                                                                      NavigationLink(destination:ListOfPharmacy(search : "laundry")) {
                                VStack{
                                      Image(systemName: "washer")
                                      .font(.system(size:20))
@@ -101,7 +102,7 @@ Text("Neighborhood_Services".localized)
                                 .foregroundColor(Color.black)
                                 .background(Color("LGreen"))
                                 .cornerRadius(26)
-                            
+
                         }
 
                     }

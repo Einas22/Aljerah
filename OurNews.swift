@@ -78,12 +78,12 @@ struct DateModifier: ViewModifier {
 
 
 
-struct card{
+struct Card {
     var id = UUID()
     let currentDateTime = Date()
-    @State var gender: String
-    @State var Name : String
-    @State var message : String
+    var gender: String
+    var name : String
+    var message : String
 }
 
 
@@ -102,11 +102,11 @@ struct OurNews: View {
     
     var body: some View {
         
-        let cardList:[card] = [
-            card(gender: AddedGender, Name: AddedName ,message: AddedMessage),
-            card(gender: "FemaleProfile", Name: "Einas" ,message: "Post2".localized),
-            card(gender: "FemaleProfile", Name: "Hoton" ,message: "Post1".localized),
-            card(gender: "MaleProfile", Name: "Ahmed" ,message: "Post3".localized)
+        let cardList:[Card] = [
+            Card(gender: AddedGender, name: AddedName ,message: AddedMessage),
+            Card(gender: "FemaleProfile", name: "Einas" ,message: "Post2".localized),
+            Card(gender: "FemaleProfile", name: "Hoton" ,message: "Post1".localized),
+            Card(gender: "MaleProfile", name: "Ahmed" ,message: "Post3".localized)
            
 
     ]
@@ -134,8 +134,8 @@ struct OurNews: View {
             
                        
                    VStack(alignment: .leading) {
-                             Text(oneCard.Name)
-                                .modifier(NameModifier())
+                            // Text(oneCard.Name)
+                               // .modifier(NameModifier())
                           
                             
                              Text(oneCard.message)

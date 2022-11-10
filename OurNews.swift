@@ -61,22 +61,6 @@ struct DateModifier: ViewModifier {
     }
 }
 
-//struct ButtonModifier: ViewModifier {
-//    func body(content: Content) -> some View {
-//        content
-//    .frame(maxWidth: .infinity)
-//    .padding()
-//    .foregroundColor(.white)
-//    .background(Color("Dgreen"))
-//    .cornerRadius(8.0)
-//
-//    }
-//}
-
-
-
-
-
 
 struct Card {
     var id = UUID()

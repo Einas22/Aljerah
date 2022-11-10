@@ -69,8 +69,7 @@ struct Edit_MyAccount: View {
                      
                      TextField("Pass_Detail", text: $password)
                          .modifier((TextFieldModifier()))
-                     
-                     
+                    
                      
                      //Phone Number
                      Text("Phone_Number".localized)

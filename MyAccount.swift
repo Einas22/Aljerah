@@ -79,8 +79,6 @@ struct MyAccount: View {
                 }
                 .padding()
                 
-                //Spacer()
-                
                 
                 Button {
                     
@@ -100,14 +98,7 @@ struct MyAccount: View {
                 Edit_MyAccount()
             }
                 
-                
-                
-                //  }
-                
-                //                
-//            .navigationTitle("My Account")
-                //            }
-                
+
             }
         }
         

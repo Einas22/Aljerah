@@ -11,16 +11,11 @@
 		50F9CC3B2916ECD200A298FA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC3A2916ECD200A298FA /* LocationManager.swift */; };
 		50F9CC3E2916ED2F00A298FA /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC3D2916ED2F00A298FA /* Landmark.swift */; };
 		50F9CC412916ED8100A298FA /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC402916ED8100A298FA /* LocalSearchService.swift */; };
-		50F9CC432916EDD000A298FA /* ListOfGroceries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC422916EDD000A298FA /* ListOfGroceries.swift */; };
-		50F9CC462916EE8100A298FA /* GroceriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC452916EE8100A298FA /* GroceriesListView.swift */; };
-		50F9CC482917018E00A298FA /* PharmacyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC472917018E00A298FA /* PharmacyListView.swift */; };
-		50F9CC4A291701FE00A298FA /* ListOfPharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC49291701FE00A298FA /* ListOfPharmacy.swift */; };
-		50F9CC4C2917032100A298FA /* BarberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC4B2917032100A298FA /* BarberListView.swift */; };
-		50F9CC4E2917039F00A298FA /* ListOfBarber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC4D2917039F00A298FA /* ListOfBarber.swift */; };
-		50F9CC502917044200A298FA /* LaundryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC4F2917044200A298FA /* LaundryListView.swift */; };
-		50F9CC52291704A000A298FA /* ListOfLaundry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC51291704A000A298FA /* ListOfLaundry.swift */; };
+		50F9CC482917018E00A298FA /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC472917018E00A298FA /* LocationListView.swift */; };
+		50F9CC4A291701FE00A298FA /* ListOfLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC49291701FE00A298FA /* ListOfLocation.swift */; };
 		50F9CC552917129C00A298FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F9CC572917129C00A298FA /* Localizable.strings */; };
 		50F9CC5B2917288A00A298FA /* AddToOurNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC5A2917288A00A298FA /* AddToOurNews.swift */; };
+		50F9CC5E291CEBE900A298FA /* Our_Neighborhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9CC5D291CEBE900A298FA /* Our_Neighborhood.swift */; };
 		5D8A917429149D8B001416FC /* Splach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A917329149D8B001416FC /* Splach.swift */; };
 		5D8A917629149DAC001416FC /* SplachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A917529149DAC001416FC /* SplachScreen.swift */; };
 		696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1D29139FEE0076051C /* KidsClub_Service.swift */; };
@@ -40,7 +35,6 @@
 		69F8BFE7290D64B600624C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8BFE6290D64B600624C11 /* Assets.xcassets */; };
 		69F8BFEA290D64B600624C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8BFE9290D64B600624C11 /* Preview Assets.xcassets */; };
 		69F8BFF3290D6A1A00624C11 /* AddTransportation_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF2290D6A1A00624C11 /* AddTransportation_Service.swift */; };
-		69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */; };
 		69F8BFF7290D9B7100624C11 /* List_Tamuinat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF6290D9B7100624C11 /* List_Tamuinat.swift */; };
 		69F8BFF9290D9C5B00624C11 /* List_Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF8290D9C5B00624C11 /* List_Pharmacy.swift */; };
 /* End PBXBuildFile section */
@@ -50,17 +44,12 @@
 		50F9CC3A2916ECD200A298FA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		50F9CC3D2916ED2F00A298FA /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		50F9CC402916ED8100A298FA /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
-		50F9CC422916EDD000A298FA /* ListOfGroceries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfGroceries.swift; sourceTree = "<group>"; };
-		50F9CC452916EE8100A298FA /* GroceriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesListView.swift; sourceTree = "<group>"; };
-		50F9CC472917018E00A298FA /* PharmacyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyListView.swift; sourceTree = "<group>"; };
-		50F9CC49291701FE00A298FA /* ListOfPharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPharmacy.swift; sourceTree = "<group>"; };
-		50F9CC4B2917032100A298FA /* BarberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberListView.swift; sourceTree = "<group>"; };
-		50F9CC4D2917039F00A298FA /* ListOfBarber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBarber.swift; sourceTree = "<group>"; };
-		50F9CC4F2917044200A298FA /* LaundryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryListView.swift; sourceTree = "<group>"; };
-		50F9CC51291704A000A298FA /* ListOfLaundry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfLaundry.swift; sourceTree = "<group>"; };
+		50F9CC472917018E00A298FA /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		50F9CC49291701FE00A298FA /* ListOfLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfLocation.swift; sourceTree = "<group>"; };
 		50F9CC562917129C00A298FA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50F9CC58291712C800A298FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50F9CC5A2917288A00A298FA /* AddToOurNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToOurNews.swift; sourceTree = "<group>"; };
+		50F9CC5D291CEBE900A298FA /* Our_Neighborhood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Our_Neighborhood.swift; sourceTree = "<group>"; };
 		5D8A917329149D8B001416FC /* Splach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splach.swift; sourceTree = "<group>"; };
 		5D8A917529149DAC001416FC /* SplachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplachScreen.swift; sourceTree = "<group>"; };
 		696C0E1D29139FEE0076051C /* KidsClub_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsClub_Service.swift; sourceTree = "<group>"; };
@@ -81,7 +70,6 @@
 		69F8BFE6290D64B600624C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F8BFE9290D64B600624C11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69F8BFF2290D6A1A00624C11 /* AddTransportation_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransportation_Service.swift; sourceTree = "<group>"; };
-		69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */ = {isa = PBXFileReference; indentWidth = 50; lastKnownFileType = sourcecode.swift; path = Our_Neighborhood.swift; sourceTree = "<group>"; tabWidth = 50; wrapsLines = 1; };
 		69F8BFF6290D9B7100624C11 /* List_Tamuinat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Tamuinat.swift; sourceTree = "<group>"; };
 		69F8BFF8290D9C5B00624C11 /* List_Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Pharmacy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,10 +120,7 @@
 		50F9CC442916EE5A00A298FA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				50F9CC452916EE8100A298FA /* GroceriesListView.swift */,
-				50F9CC472917018E00A298FA /* PharmacyListView.swift */,
-				50F9CC4B2917032100A298FA /* BarberListView.swift */,
-				50F9CC4F2917044200A298FA /* LaundryListView.swift */,
+				50F9CC472917018E00A298FA /* LocationListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,10 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				50F9CC572917129C00A298FA /* Localizable.strings */,
-				50F9CC51291704A000A298FA /* ListOfLaundry.swift */,
-				50F9CC49291701FE00A298FA /* ListOfPharmacy.swift */,
-				50F9CC4D2917039F00A298FA /* ListOfBarber.swift */,
-				50F9CC422916EDD000A298FA /* ListOfGroceries.swift */,
 				50F9CC442916EE5A00A298FA /* Views */,
 				50F9CC3F2916ED4E00A298FA /* Services */,
 				50F9CC3C2916ED0D00A298FA /* Models */,
@@ -172,6 +153,7 @@
 				699986302910400B00B6A326 /* MyAccount.swift */,
 				696C0E232913BD330076051C /* OurNews.swift */,
 				50F9CC5A2917288A00A298FA /* AddToOurNews.swift */,
+				50F9CC49291701FE00A298FA /* ListOfLocation.swift */,
 				696C0E1F2913A1700076051C /* CarWash_Service.swift */,
 				69EE25C9290E7623003E5EE4 /* CarWash.swift */,
 				696C0E1D29139FEE0076051C /* KidsClub_Service.swift */,
@@ -179,7 +161,7 @@
 				69F8BFF2290D6A1A00624C11 /* AddTransportation_Service.swift */,
 				69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */,
 				50F9CC592917236000A298FA /* old list */,
-				69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */,
+				50F9CC5D291CEBE900A298FA /* Our_Neighborhood.swift */,
 				69F8BFE1290D64B500624C11 /* Aljirah */,
 				69F8BFE0290D64B500624C11 /* Products */,
 			);
@@ -284,22 +266,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F9CC482917018E00A298FA /* PharmacyListView.swift in Sources */,
+				50F9CC482917018E00A298FA /* LocationListView.swift in Sources */,
 				69EE25C2290E6A21003E5EE4 /* List_Barber.swift in Sources */,
 				696C0E222913ACC80076051C /* Edit_MyAccount.swift in Sources */,
 				50F9CC5B2917288A00A298FA /* AddToOurNews.swift in Sources */,
 				69F8BFF9290D9C5B00624C11 /* List_Pharmacy.swift in Sources */,
 				699986312910400B00B6A326 /* MyAccount.swift in Sources */,
-				50F9CC462916EE8100A298FA /* GroceriesListView.swift in Sources */,
 				69EE25C8290E75E6003E5EE4 /* KisdClub.swift in Sources */,
 				696C0E242913BD330076051C /* OurNews.swift in Sources */,
 				50F9CC3B2916ECD200A298FA /* LocationManager.swift in Sources */,
 				69EE25CA290E7623003E5EE4 /* CarWash.swift in Sources */,
-				50F9CC4E2917039F00A298FA /* ListOfBarber.swift in Sources */,
 				50F9CC382916ECA000A298FA /* MKCoordinateRegion+Extensions.swift in Sources */,
 				696C0E202913A1700076051C /* CarWash_Service.swift in Sources */,
 				5D8A917629149DAC001416FC /* SplachScreen.swift in Sources */,
-				69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */,
 				69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */,
 				50F9CC412916ED8100A298FA /* LocalSearchService.swift in Sources */,
 				69F8BFE3290D64B500624C11 /* Aljirah.swift in Sources */,
@@ -307,15 +286,12 @@
 				696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */,
 				50F9CC3E2916ED2F00A298FA /* Landmark.swift in Sources */,
 				69F8BFF7290D9B7100624C11 /* List_Tamuinat.swift in Sources */,
-				50F9CC4A291701FE00A298FA /* ListOfPharmacy.swift in Sources */,
+				50F9CC4A291701FE00A298FA /* ListOfLocation.swift in Sources */,
 				69EE25C4290E706B003E5EE4 /* List_Laundry.swift in Sources */,
 				696C0E282913C8A10076051C /* Login.swift in Sources */,
-				50F9CC502917044200A298FA /* LaundryListView.swift in Sources */,
-				50F9CC4C2917032100A298FA /* BarberListView.swift in Sources */,
-				50F9CC432916EDD000A298FA /* ListOfGroceries.swift in Sources */,
 				69F8BFF3290D6A1A00624C11 /* AddTransportation_Service.swift in Sources */,
 				5D8A917429149D8B001416FC /* Splach.swift in Sources */,
-				50F9CC52291704A000A298FA /* ListOfLaundry.swift in Sources */,
+				50F9CC5E291CEBE900A298FA /* Our_Neighborhood.swift in Sources */,
 				69EE25C6290E7598003E5EE4 /* SharedTransportation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

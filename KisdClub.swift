@@ -82,7 +82,7 @@ struct KidsClub: View {
                             .font(.system(size: 18))
                             
                         } ,
-                        label: {Label(oneSh_Transportation.ServiceTopic,systemImage: "car.2").bold()
+                        label: {Label(oneSh_Transportation.ServiceTopic,systemImage: "teddybear").bold()
                             
                         }
                         

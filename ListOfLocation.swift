@@ -3,16 +3,16 @@
 //  Example
 //
 //  Created by Einas Alturki on 11/04/1444 AH.
-//
 
 import Foundation
 import SwiftUI
 import MapKit
 
-struct ListOfPharmacy: View {
+struct ListOfLocation: View {
     
     @EnvironmentObject var localSearchService: LocalSearchService
-    @State var search: String// = "Pharmacy"
+    @State var search: String // = "Pharmacy"
+    @State var icon : Int
 
     
     var body: some View {
@@ -24,7 +24,10 @@ struct ListOfPharmacy: View {
 
                 
             } else {
-                PharmacyListView()
+                    
+                LocationListView(icon: icon)
+
+                
             }
           //  Spacer()
        }.onAppear {
@@ -34,9 +37,9 @@ struct ListOfPharmacy: View {
     }
 }
 
-struct ListOfPharmacy_Previews: PreviewProvider {
+struct ListOfLocation_Previews: PreviewProvider {
     static var previews: some View {
-        ListOfPharmacy(search: "Pharmacy").environmentObject(LocalSearchService())
+        ListOfLocation(search: "Pharmacy", icon: 4).environmentObject(LocalSearchService())
     }
 }
 
